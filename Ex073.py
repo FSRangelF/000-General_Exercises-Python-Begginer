@@ -1,0 +1,13 @@
+times = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Athletico-PR', 'Atlético-MG', 'Fortaleza', 'São Paulo', 'América-MG',
+         'Botafogo', 'Santos', 'Goiás', 'Red Bull Bragantino', 'Coritiba', 'Cuiabá', 'Ceará', 'Atlético-GO', 'Avaí', 'Juventude')
+print('-='*40)
+print(f'Lista de times do Brasileirão: {times}')
+print('-='*40)
+print(f'Os 5 primeiros colocados são {times[:5]}')
+print('-='*40)
+print(f'Os 4 ultimos colocados (zona de rebaixamento) são {times[-4:]}')
+print('-='*40)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-='*40)
+print(f'O Coritiba esta na {times.index("Coritiba")+1}ª posição')
+print('-='*40)
